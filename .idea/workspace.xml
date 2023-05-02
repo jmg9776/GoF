@@ -10,6 +10,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,7 +54,60 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SingletonTests">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Singleton" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BreakSingletonTest.serializableTest">
+    <configuration name="BreakSingletonTest.reflection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoFMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Singleton" />
+      <option name="MAIN_CLASS_NAME" value="Singleton.BreakSingletonTest" />
+      <option name="METHOD_NAME" value="reflection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BreakSingletonTest.reflectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoFMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Singleton" />
+      <option name="MAIN_CLASS_NAME" value="Singleton.BreakSingletonTest" />
+      <option name="METHOD_NAME" value="reflectionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BreakSingletonTest.serializableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoFMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Singleton" />
+      <option name="MAIN_CLASS_NAME" value="Singleton.BreakSingletonTest" />
+      <option name="METHOD_NAME" value="serializableTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingletonTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GoFMaven" />
       <extension name="coverage">
@@ -72,6 +132,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BreakSingletonTest.serializableTest" />
+        <item itemvalue="JUnit.BreakSingletonTest.reflectionTest" />
+        <item itemvalue="JUnit.BreakSingletonTest.reflection" />
         <item itemvalue="JUnit.SingletonTests" />
       </list>
     </recent_temporary>
@@ -84,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683008784116</updated>
-      <workItem from="1683008785136" duration="1490000" />
+      <workItem from="1683008785136" duration="3181000" />
     </task>
     <servers />
   </component>
