@@ -38,12 +38,23 @@ public class BreakSingletonTest {
 
         try (ObjectInput in = new ObjectInputStream(new FileInputStream("m1.obj"))) {
             m2 = (MultiThreadSingletonSerializable) in.readObject();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        } catch (ClassNotFoundException e) {
+        } catch (IOException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
         assertEquals(m1, m2);
     }
 
+    @Test
+    void enumTest()
+        throws InvocationTargetException, InstantiationException, IllegalAccessException, NoSuchMethodException {
+        EnumSingleton m1 = EnumSingleton.INSTANCE;
+        EnumSingleton m2 = null;
+
+        Constructor<?>[] constructor = EnumSingleton.class.getDeclaredConstructors();
+        for (Constructor<?> constructor1 : constructor) {
+            constructor1.setAccessible(true);
+            m2 = (EnumSingleton) constructor1.newInstance("INSTANCE");
+        }
+        assertEquals(m1, m2);
+    }
 }

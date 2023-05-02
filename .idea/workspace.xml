@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db8c108-8a32-4d6e-b9ff-2395b4eef4f4" name="Changes" comment="" />
+    <list default="true" id="3db8c108-8a32-4d6e-b9ff-2395b4eef4f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Singleton/EnumSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Singleton/BreakSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Singleton/BreakSingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Singleton/BreakSingletonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Singleton/BreakSingletonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Singleton/MultiThreadSingletonSerializable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Singleton/MultiThreadSingletonSerializable.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -25,11 +35,6 @@
       <MavenGeneralSettings>
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="2PE4D2DYLGiYGFEztYKcFxW1ubD" />
@@ -46,11 +51,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/jomingyun/Desktop/GoFMaven",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Color Scheme Font",
+    "spring.configuration.checksum": "226a7d029e04002b83e56600dc86b271",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -59,7 +67,23 @@
       <recent name="Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BreakSingletonTest.serializableTest">
+  <component name="RunManager" selected="JUnit.BreakSingletonTest.enumTest">
+    <configuration name="BreakSingletonTest.enumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoFMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Singleton" />
+      <option name="MAIN_CLASS_NAME" value="Singleton.BreakSingletonTest" />
+      <option name="METHOD_NAME" value="enumTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BreakSingletonTest.reflection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GoFMaven" />
       <extension name="coverage">
@@ -132,6 +156,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BreakSingletonTest.enumTest" />
         <item itemvalue="JUnit.BreakSingletonTest.serializableTest" />
         <item itemvalue="JUnit.BreakSingletonTest.reflectionTest" />
         <item itemvalue="JUnit.BreakSingletonTest.reflection" />
@@ -147,7 +172,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683008784116</updated>
-      <workItem from="1683008785136" duration="3181000" />
+      <workItem from="1683008785136" duration="3354000" />
+      <workItem from="1683012282812" duration="2044000" />
     </task>
     <servers />
   </component>
@@ -176,5 +202,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
