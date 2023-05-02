@@ -29,8 +29,18 @@ public class SingletonTests {
         for (int i=0;i<10000000;i++){
             multiThreadSingletons.add(MultiThreadSingleton.getSynchronizedInstance());
         }
-        assertEquals(multiThreadSingletons.get(0), multiThreadSingletons.get(999) );
-        //Junit 400ms
+        assertEquals(multiThreadSingletons.get(0), multiThreadSingletons.get(999));
+        //Junit 500ms
+    }
+
+    @Test
+    void doubleLockInstanceTest() {
+        List<MultiThreadSingleton> multiThreadSingletons = new ArrayList<>();
+        for (int i=0;i<10000000;i++){
+            multiThreadSingletons.add(MultiThreadSingleton.getDoubleLockInstance());
+        }
+        assertEquals(multiThreadSingletons.get(0), multiThreadSingletons.get(999));
+        //Junit 350ms
     }
 
     @Test
@@ -39,7 +49,17 @@ public class SingletonTests {
         for (int i=0;i<10000000;i++){
             multiThreadSingletons.add(MultiThreadSingleton.getEagerInstance());
         }
-        assertEquals(multiThreadSingletons.get(0), multiThreadSingletons.get(999) );
+        assertEquals(multiThreadSingletons.get(0), multiThreadSingletons.get(999));
         //Junit 300ms
+    }
+
+    @Test
+    void innerInstanceTest() {
+        List<MultiThreadSingleton> multiThreadSingletons = new ArrayList<>();
+        for (int i=0;i<10000000;i++){
+            multiThreadSingletons.add(MultiThreadSingleton.getInnerInstance());
+        }
+        assertEquals(multiThreadSingletons.get(0), multiThreadSingletons.get(999));
+        //Junit 350ms
     }
 }
