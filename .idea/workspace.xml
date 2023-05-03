@@ -4,8 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db8c108-8a32-4d6e-b9ff-2395b4eef4f4" name="Changes" comment="">
+    <list default="true" id="3db8c108-8a32-4d6e-b9ff-2395b4eef4f4" name="Changes" comment="rename">
+      <change afterPath="$PROJECT_DIR$/src/test/java/factorypattern/FactoryFirst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factorypattern/FactoryInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factorypattern/FactoryMethodTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/factorypattern/FactorySecond.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Singleton/BreakSingletonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Singleton/BreakSingletonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Singleton/EnumSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Singleton/EnumSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Singleton/MultiThreadSingleton$MultiThreadSingletonHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Singleton/MultiThreadSingleton$MultiThreadSingletonHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Singleton/MultiThreadSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Singleton/MultiThreadSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Singleton/MultiThreadSingletonSerializable$MultiThreadSingletonHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Singleton/MultiThreadSingletonSerializable$MultiThreadSingletonHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Singleton/MultiThreadSingletonSerializable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Singleton/MultiThreadSingletonSerializable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Singleton/NonSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Singleton/NonSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Singleton/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Singleton/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Singleton/SingletonTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Singleton/SingletonTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/gofmaven/GoFMavenApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/gofmaven/GoFMavenApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,20 +75,21 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="factorypattern" />
       <recent name="Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SingletonTests">
+  <component name="RunManager" selected="JUnit.FactoryMethodTests">
     <configuration name="BreakSingletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GoFMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Singleton.*" />
+          <option name="PATTERN" value="singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Singleton" />
-      <option name="MAIN_CLASS_NAME" value="Singleton.BreakSingletonTest" />
+      <option name="MAIN_CLASS_NAME" value="singleton.BreakSingletonTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,29 +99,13 @@
       <module name="GoFMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Singleton.*" />
+          <option name="PATTERN" value="singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Singleton" />
-      <option name="MAIN_CLASS_NAME" value="Singleton.BreakSingletonTest" />
+      <option name="MAIN_CLASS_NAME" value="singleton.BreakSingletonTest" />
       <option name="METHOD_NAME" value="enumTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BreakSingletonTest.reflectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GoFMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Singleton" />
-      <option name="MAIN_CLASS_NAME" value="Singleton.BreakSingletonTest" />
-      <option name="METHOD_NAME" value="reflectionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,14 +115,29 @@
       <module name="GoFMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Singleton.*" />
+          <option name="PATTERN" value="singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Singleton" />
-      <option name="MAIN_CLASS_NAME" value="Singleton.BreakSingletonTest" />
+      <option name="MAIN_CLASS_NAME" value="singleton.BreakSingletonTest" />
       <option name="METHOD_NAME" value="serializableTest" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryMethodTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoFMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factorypattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="factorypattern" />
+      <option name="MAIN_CLASS_NAME" value="factorypattern.FactoryMethodTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,12 +146,12 @@
       <module name="GoFMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Singleton.*" />
+          <option name="PATTERN" value="singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Singleton" />
-      <option name="MAIN_CLASS_NAME" value="Singleton.SingletonTests" />
+      <option name="MAIN_CLASS_NAME" value="singleton.SingletonTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FactoryMethodTests" />
         <item itemvalue="JUnit.SingletonTests" />
         <item itemvalue="JUnit.BreakSingletonTest" />
         <item itemvalue="JUnit.BreakSingletonTest.enumTest" />
         <item itemvalue="JUnit.BreakSingletonTest.serializableTest" />
-        <item itemvalue="JUnit.BreakSingletonTest.reflectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +185,16 @@
       <workItem from="1683008785136" duration="3354000" />
       <workItem from="1683012282812" duration="2044000" />
       <workItem from="1683082610631" duration="889000" />
+      <workItem from="1683092946924" duration="2027000" />
     </task>
+    <task id="LOCAL-00001" summary="rename">
+      <created>1683093227252</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683093227252</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +222,27 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/factorypattern/FactoryInterface.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="testMethod()" />
+        <watch expression="n + testMethod()" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
