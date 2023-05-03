@@ -1,4 +1,4 @@
-package factorypattern;
+package factory.defaults;
 
 public interface FactoryInterface {
     String testMethod();

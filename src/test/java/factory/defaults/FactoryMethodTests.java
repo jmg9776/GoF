@@ -1,4 +1,4 @@
-package factorypattern;
+package factory.defaults;
 
 import org.junit.jupiter.api.Test;
 
