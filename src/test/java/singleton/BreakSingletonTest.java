@@ -1,9 +1,8 @@
-package Singleton;
+package singleton;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInput;

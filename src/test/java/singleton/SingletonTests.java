@@ -1,4 +1,4 @@
-package Singleton;
+package singleton;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

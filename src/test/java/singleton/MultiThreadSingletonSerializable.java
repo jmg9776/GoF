@@ -1,8 +1,6 @@
-package Singleton;
+package singleton;
 
-import java.io.ObjectInput;
 import java.io.Serializable;
-import org.springframework.stereotype.Service;
 
 public class MultiThreadSingletonSerializable implements Serializable {
 
