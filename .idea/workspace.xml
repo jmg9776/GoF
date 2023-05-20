@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db8c108-8a32-4d6e-b9ff-2395b4eef4f4" name="Changes" comment="factoryMethod 연습" />
+    <list default="true" id="3db8c108-8a32-4d6e-b9ff-2395b4eef4f4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/bridge/champions/Ahri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bridge/champions/Champion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bridge/champions/DefaultChampion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bridge/skins/KDA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bridge/skins/Shadow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bridge/skins/Skin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/bridge/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,13 +22,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,7 +41,6 @@
     </option>
   </component>
   <component name="ProjectId" id="2PE4D2DYLGiYGFEztYKcFxW1ubD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,37 +67,53 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="factorypattern" />
       <recent name="Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FactoryMethodTests">
-    <configuration name="BreakSingletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GoFMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Singleton" />
-      <option name="MAIN_CLASS_NAME" value="singleton.BreakSingletonTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.test.t">
     <configuration name="BreakSingletonTest.enumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GoFMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.*" />
+          <option name="PATTERN" value="Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Singleton" />
-      <option name="MAIN_CLASS_NAME" value="singleton.BreakSingletonTest" />
+      <option name="MAIN_CLASS_NAME" value="Singleton.BreakSingletonTest" />
       <option name="METHOD_NAME" value="enumTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BreakSingletonTest.reflection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoFMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Singleton" />
+      <option name="MAIN_CLASS_NAME" value="Singleton.BreakSingletonTest" />
+      <option name="METHOD_NAME" value="reflection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BreakSingletonTest.reflectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoFMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Singleton" />
+      <option name="MAIN_CLASS_NAME" value="Singleton.BreakSingletonTest" />
+      <option name="METHOD_NAME" value="reflectionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,44 +123,30 @@
       <module name="GoFMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.*" />
+          <option name="PATTERN" value="Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Singleton" />
-      <option name="MAIN_CLASS_NAME" value="singleton.BreakSingletonTest" />
+      <option name="MAIN_CLASS_NAME" value="Singleton.BreakSingletonTest" />
       <option name="METHOD_NAME" value="serializableTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryMethodTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GoFMaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="factory.defaults.*" />
+          <option name="PATTERN" value="bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="factory.defaults" />
-      <option name="MAIN_CLASS_NAME" value="factory.defaults.FactoryMethodTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletonTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GoFMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Singleton" />
-      <option name="MAIN_CLASS_NAME" value="singleton.SingletonTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="bridge" />
+      <option name="MAIN_CLASS_NAME" value="bridge.test" />
+      <option name="METHOD_NAME" value="t" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FactoryMethodTests" />
-        <item itemvalue="JUnit.SingletonTests" />
-        <item itemvalue="JUnit.BreakSingletonTest" />
+        <item itemvalue="JUnit.test.t" />
         <item itemvalue="JUnit.BreakSingletonTest.enumTest" />
         <item itemvalue="JUnit.BreakSingletonTest.serializableTest" />
+        <item itemvalue="JUnit.BreakSingletonTest.reflectionTest" />
+        <item itemvalue="JUnit.BreakSingletonTest.reflection" />
       </list>
     </recent_temporary>
   </component>
@@ -168,31 +178,9 @@
       <updated>1683008784116</updated>
       <workItem from="1683008785136" duration="3354000" />
       <workItem from="1683012282812" duration="2044000" />
-      <workItem from="1683082610631" duration="889000" />
-      <workItem from="1683092946924" duration="5431000" />
+      <workItem from="1684134215082" duration="603000" />
+      <workItem from="1684580881424" duration="2499000" />
     </task>
-    <task id="LOCAL-00001" summary="rename">
-      <created>1683093227252</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1683093227252</updated>
-    </task>
-    <task id="LOCAL-00002" summary="factoryMethod 연습">
-      <created>1683095359244</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1683095359244</updated>
-    </task>
-    <task id="LOCAL-00003" summary="factoryMethod 연습">
-      <created>1683096497945</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1683096497945</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,19 +208,6 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="rename" />
-    <MESSAGE value="factoryMethod 연습" />
-    <option name="LAST_COMMIT_MESSAGE" value="factoryMethod 연습" />
-  </component>
-  <component name="XDebuggerManager">
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="testMethod()" />
-        <watch expression="n + testMethod()" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
