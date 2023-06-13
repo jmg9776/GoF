@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db8c108-8a32-4d6e-b9ff-2395b4eef4f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/bridge/champions/Ahri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bridge/champions/Champion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bridge/champions/DefaultChampion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bridge/skins/KDA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bridge/skins/Shadow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bridge/skins/Skin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bridge/test.java" afterDir="false" />
+    <list default="true" id="3db8c108-8a32-4d6e-b9ff-2395b4eef4f4" name="Changes" comment="브릿지 패턴">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lambda/lambdaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bridge/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bridge/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bridge/champions/DefaultChampion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bridge/champions/DefaultChampion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bridge/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bridge/test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,7 @@
       <recent name="Singleton" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test.t">
+  <component name="RunManager" selected="JUnit.lambdaTest.firstTest">
     <configuration name="BreakSingletonTest.enumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GoFMaven" />
       <extension name="coverage">
@@ -82,22 +79,6 @@
       <option name="PACKAGE_NAME" value="Singleton" />
       <option name="MAIN_CLASS_NAME" value="Singleton.BreakSingletonTest" />
       <option name="METHOD_NAME" value="enumTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BreakSingletonTest.reflection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="GoFMaven" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Singleton" />
-      <option name="MAIN_CLASS_NAME" value="Singleton.BreakSingletonTest" />
-      <option name="METHOD_NAME" value="reflection" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,6 +116,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lambdaTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="GoFMaven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lambda" />
+      <option name="MAIN_CLASS_NAME" value="lambda.lambdaTest" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GoFMaven" />
       <extension name="coverage">
@@ -160,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.lambdaTest.firstTest" />
         <item itemvalue="JUnit.test.t" />
         <item itemvalue="JUnit.BreakSingletonTest.enumTest" />
         <item itemvalue="JUnit.BreakSingletonTest.serializableTest" />
         <item itemvalue="JUnit.BreakSingletonTest.reflectionTest" />
-        <item itemvalue="JUnit.BreakSingletonTest.reflection" />
       </list>
     </recent_temporary>
   </component>
@@ -179,8 +176,17 @@
       <workItem from="1683008785136" duration="3354000" />
       <workItem from="1683012282812" duration="2044000" />
       <workItem from="1684134215082" duration="603000" />
-      <workItem from="1684580881424" duration="2499000" />
+      <workItem from="1684580881424" duration="4699000" />
+      <workItem from="1686653639708" duration="509000" />
     </task>
+    <task id="LOCAL-00001" summary="브릿지 패턴">
+      <created>1684585155749</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684585155749</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +214,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="브릿지 패턴" />
+    <option name="LAST_COMMIT_MESSAGE" value="브릿지 패턴" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
