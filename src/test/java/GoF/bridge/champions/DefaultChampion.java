@@ -1,6 +1,6 @@
-package bridge.champions;
+package GoF.bridge.champions;
 
-import bridge.skins.Skin;
+import GoF.bridge.skins.Skin;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

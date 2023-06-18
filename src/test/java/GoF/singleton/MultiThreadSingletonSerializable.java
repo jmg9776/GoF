@@ -1,4 +1,4 @@
-package singleton;
+package GoF.singleton;
 
 import java.io.Serializable;
 

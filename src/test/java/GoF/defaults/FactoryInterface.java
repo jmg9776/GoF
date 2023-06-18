@@ -1,4 +1,4 @@
-package factory.defaults;
+package GoF.defaults;
 
 public interface FactoryInterface {
     String testMethod();

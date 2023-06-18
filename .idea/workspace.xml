@@ -6,8 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="3db8c108-8a32-4d6e-b9ff-2395b4eef4f4" name="Changes" comment="람다">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lambda/lambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lambda/lambdaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lambda/lambdaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lambda/lambdaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bridge/champions/Ahri.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/bridge/champions/Ahri.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bridge/champions/Champion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/bridge/champions/Champion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bridge/champions/DefaultChampion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/bridge/champions/DefaultChampion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bridge/skins/KDA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/bridge/skins/KDA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bridge/skins/Shadow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/bridge/skins/Shadow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bridge/skins/Skin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/bridge/skins/Skin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bridge/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/bridge/test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factory/defaults/FactoryFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/defaults/FactoryFirst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factory/defaults/FactoryInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/defaults/FactoryInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factory/defaults/FactoryMethodTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/defaults/FactoryMethodTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/factory/defaults/FactorySecond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/defaults/FactorySecond.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lambda/lambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/lambda/lambdaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleton/BreakSingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/singleton/BreakSingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleton/EnumSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/singleton/EnumSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleton/MultiThreadSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/singleton/MultiThreadSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleton/MultiThreadSingletonSerializable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/singleton/MultiThreadSingletonSerializable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleton/NonSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/singleton/NonSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/singleton/SingletonTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GoF/singleton/SingletonTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +191,8 @@
       <workItem from="1683012282812" duration="2044000" />
       <workItem from="1684134215082" duration="603000" />
       <workItem from="1684580881424" duration="4699000" />
-      <workItem from="1686653639708" duration="1617000" />
+      <workItem from="1686653639708" duration="2447000" />
+      <workItem from="1687088578132" duration="57000" />
     </task>
     <task id="LOCAL-00001" summary="브릿지 패턴">
       <created>1684585155749</created>
@@ -190,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686654254373</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="람다">
+      <created>1686834153492</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686834153492</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

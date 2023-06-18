@@ -1,4 +1,4 @@
-package factory.defaults;
+package GoF.defaults;
 
 public class FactorySecond implements FactoryInterface {
     @Override

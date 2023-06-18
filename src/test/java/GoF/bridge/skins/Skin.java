@@ -1,4 +1,4 @@
-package bridge.skins;
+package GoF.bridge.skins;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package bridge.skins;
+package GoF.bridge.skins;
 
 public class Shadow extends Skin{
 

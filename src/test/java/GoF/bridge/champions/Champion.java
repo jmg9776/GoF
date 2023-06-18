@@ -1,4 +1,4 @@
-package bridge.champions;
+package GoF.bridge.champions;
 
 public interface Champion {
     void move();

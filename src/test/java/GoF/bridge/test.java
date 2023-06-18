@@ -1,12 +1,10 @@
-package bridge;
+package GoF.bridge;
 
-import bridge.champions.Ahri;
-import bridge.champions.Champion;
-import bridge.skins.KDA;
-import bridge.skins.Shadow;
-import bridge.skins.Skin;
+import GoF.bridge.champions.Ahri;
+import GoF.bridge.champions.Champion;
+import GoF.bridge.skins.KDA;
+import GoF.bridge.skins.Shadow;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 
 public class test {
     /*

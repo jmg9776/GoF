@@ -1,6 +1,6 @@
-package bridge.champions;
+package GoF.bridge.champions;
 
-import bridge.skins.Skin;
+import GoF.bridge.skins.Skin;
 
 public class Ahri extends DefaultChampion{
     public Ahri(Skin skin) {

@@ -1,4 +1,4 @@
-package factory.defaults;
+package GoF.defaults;
 
 import org.junit.jupiter.api.Test;
 
