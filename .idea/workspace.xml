@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3db8c108-8a32-4d6e-b9ff-2395b4eef4f4" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gofmaven/AOP/AopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gofmaven/AOP/AopTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,7 +125,7 @@
       <workItem from="1684580881424" duration="4699000" />
       <workItem from="1686653639708" duration="2447000" />
       <workItem from="1687088578132" duration="947000" />
-      <workItem from="1687089532456" duration="4549000" />
+      <workItem from="1687089532456" duration="5247000" />
     </task>
     <task id="LOCAL-00001" summary="브릿지 패턴">
       <created>1684585155749</created>
@@ -168,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687094066005</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary=".">
+      <created>1687094091750</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687094091750</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

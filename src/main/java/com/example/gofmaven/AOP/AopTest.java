@@ -24,14 +24,12 @@ public class AopTest {
      */
     private StudentRepository studentRepository = new StudentRepository();
 
-    // Todo 중요! 메서드를 직접 실행해야 aop를 적용이 된다.
     public void Test() throws InterruptedException {
         StudentData studentData = new StudentData();
         studentData.setName("JO");
         //joinLegacy(studentData);
         join(studentData);
     }
-
     private void joinLegacy(StudentData studentData) {
         StopWatch stopWatch = new StopWatch();
         stopWatch.start();
@@ -48,4 +46,13 @@ public class AopTest {
         studentRepository.save(studentData);
         Thread.sleep(1000);
     }
+    /*
+    Todo 중요! 메서드를 실행하는 시점에 AOP가 적용되기 때문에 메서드를 직접 실행해야 AOP를 적용이 된다.
+    프록시로 감싼 객체가 실제로 타깃오브젝트의 test이라는 메서드를 실행할 때, join메서드가 AOP를 이용한 프록시 객체가 아니게 되기 때문에 자기 자신을 호출할 때에는, AOP가 아닌 메서드가 호출이 된다.
+    private 메서드에 @Transaction 어노테이션을 적용했을때, 적용이 되지 않을때와 같은 원리이다.
+    Interceptor, SpringSecurity또한 AOP의 기술중 한가지라고 볼 수 있다.
+
+    Aspectj는 컴파일과 클래스 로드시 바이트 코드를 조작하여 적용하는 방식을 채택하고 있다
+    SpringAOP는 프록시 패턴을 적용하고 있다.
+     */
 }
