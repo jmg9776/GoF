@@ -24,7 +24,7 @@ public class AopTest {
      */
     private StudentRepository studentRepository = new StudentRepository();
 
-    //중요! 메서드를 직접 실행해야 aop를 적용이 된다.
+    // Todo 중요! 메서드를 직접 실행해야 aop를 적용이 된다.
     public void Test() throws InterruptedException {
         StudentData studentData = new StudentData();
         studentData.setName("JO");
