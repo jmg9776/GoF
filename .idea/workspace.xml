@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3db8c108-8a32-4d6e-b9ff-2395b4eef4f4" name="Changes" comment=".">
+    <list default="true" id="3db8c108-8a32-4d6e-b9ff-2395b4eef4f4" name="Changes" comment="설명 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gofmaven/AOP/AopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gofmaven/AOP/AopTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +124,8 @@
       <workItem from="1684580881424" duration="4699000" />
       <workItem from="1686653639708" duration="2447000" />
       <workItem from="1687088578132" duration="947000" />
-      <workItem from="1687089532456" duration="5247000" />
+      <workItem from="1687089532456" duration="6803000" />
+      <workItem from="1687125020498" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="브릿지 패턴">
       <created>1684585155749</created>
@@ -176,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687094091750</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="설명 추가">
+      <created>1687094929535</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687094929535</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,7 +216,8 @@
     <MESSAGE value="브릿지 패턴" />
     <MESSAGE value="람다" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="설명 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="설명 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

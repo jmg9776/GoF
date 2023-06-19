@@ -27,7 +27,7 @@ public class AopTest {
     public void Test() throws InterruptedException {
         StudentData studentData = new StudentData();
         studentData.setName("JO");
-        //joinLegacy(studentData);
+        joinLegacy(studentData);
         join(studentData);
     }
     private void joinLegacy(StudentData studentData) {
